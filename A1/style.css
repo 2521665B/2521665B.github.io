@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+h2,
+p {
+  margin: 10px;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  margin-right: 40px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+#features {
+  top: 0;
+  height: 150px;
+  margin-top: 20px;
+  width: 250px;
+}
+p {
+  font-size: 17px;
+  font-family: Lato, sans-serif;
+}
+  
+body * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
